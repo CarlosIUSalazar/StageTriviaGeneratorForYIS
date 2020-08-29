@@ -1,0 +1,2 @@
+# StageTriviaGeneratorForYIS
+StageTriviaGeneratorForYIS
