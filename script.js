@@ -5,11 +5,9 @@ let rightAnswer = ''
 function playGame(){
     document.getElementById('playButton').style.display = 'none';
     let randomNum = Math.floor(Math.random() * Math.floor(9));
-
     rightAnswer = document.getElementById('TriviaText').innerText = areasArray[randomNum]
     console.log("rightAnswer from playgame()",rightAnswer)
 }
-
 
 function guess(num) {
     console.log("num, rightAnswer", num,rightAnswer)
